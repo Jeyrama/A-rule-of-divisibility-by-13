@@ -50,3 +50,5 @@ function thirt(n) {
   let sum = (''+n).split('').reverse().reduce((sum,v,i) => sum + v * nums[i%nums.length], 0)
   return sum === n ? n : thirt(sum)
 }
+
+// or
